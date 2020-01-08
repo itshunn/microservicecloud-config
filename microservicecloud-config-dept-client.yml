@@ -41,9 +41,9 @@ info:
   compnay.name: www.itshunn.com
   build.artifactId: $project.artifactId$
   build.version: $project.version$
- ---
- server:
-  port: 8001
+---
+server:
+ port: 8001
 
 mybatis:
   config-location: classpath:mybatis/mybatis.cfg.xml        # mybatis配置文件所在路径
