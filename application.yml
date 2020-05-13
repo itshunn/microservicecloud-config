@@ -5,19 +5,15 @@
 ---
 spring:
     profiles: dev
-service1
-    port: 10001
-service2
-    port: 10002
-service3
-    port: 10003
+service:
+  service1Port: 10001
+  service2Port: 10002
+  service3Port: 10003
 ---
 spring:
     profiles: test
-service1
-    port: 11001
-service2
-    port: 11002
-service3
-    port: 11003
+service:
+  service1Port: 11001
+  service2Port: 11002
+  service3Port: 11003
         
