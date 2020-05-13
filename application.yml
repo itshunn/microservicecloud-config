@@ -5,11 +5,19 @@
 ---
 spring:
     profiles: dev
-    application:
-        name: microservicecloud-config-itshunn-dev
+service1
+    port: 10001
+service2
+    port: 10002
+service3
+    port: 10003
 ---
 spring:
     profiles: test
-    application:
-        name: microservicecloud-config-itshunn-test
+service1
+    port: 11001
+service2
+    port: 11002
+service3
+    port: 11003
         
