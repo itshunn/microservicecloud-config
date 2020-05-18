@@ -1,15 +1,22 @@
 spring:
     profiles: service1
+config:
+    info: 1
+
 server:
     port: 8101
 ---
 spring:
     profiles: service2
+config:
+    info: 2
 server:
     port: 8102    
 ---
 spring:
     profiles: service3
+config:
+    info: 3
 server:
     port: 8103
         
