@@ -1,7 +1,7 @@
 spring:
     profiles: dev
 config:
-    info: 123
+    info: 123456
 
 ---
 spring:
