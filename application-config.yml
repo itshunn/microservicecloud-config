@@ -1,16 +1,16 @@
 spring:
     profiles: dev
 config:
-    info: 2
+    info: 1
 
 ---
 spring:
     profiles: test
 config:
-    info: 3
+    info: 2
 ---
 spring:
     profiles: prod
 config:
-    info: 4
+    info: 3
         
